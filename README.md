@@ -69,7 +69,7 @@ Streaming:
 ```
 @client.event
 async def on_ready():
-    await client.change_presence(activity=discord.Streaming(name='with my Masters', url='https://www.twitch.tv/iludw1g'))
+    await client.change_presence(activity=discord.Streaming(name='with my Masters', url='[Twitch/Stream URL]'))
     
     print('Connected to bot: {}'.format(client.user.name))
     print('Bot ID: {}'.format(client.user.id))
