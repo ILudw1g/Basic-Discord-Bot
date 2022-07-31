@@ -54,6 +54,10 @@ def keep_alive():
     t = Thread(target=run)
     t.start()
 ```
+
+# Add weblink to uptimerobot
+Set ping interval to 5 or 15 minutes (Replit shuts off after an hour of inactivity).
+
 # Bot Status Templates
 Listening: 
 
